@@ -2,7 +2,8 @@
     encrypt(plaintext::String) -> Dict{Int64,String}
 
 Fill me in
-"""
+The function "encrypt" takes the plain text string, runs it, and returns an encrypted data structure.
+""" 
 function encrypt(plaintext::String)::Dict{Int64,String}
  # initialize -
  message = Dict{Int64,String}()
@@ -30,6 +31,7 @@ end
     decrypt(encrypteddata::Dict{Int64,String}) -> String
 
 Fill me in
+The function "decrypt" takes the encrypted data structure, runs it, and returns the plain text string.
 """
 function decrypt(encrypteddata::Dict{Int64,String})::String
  # initialize -
